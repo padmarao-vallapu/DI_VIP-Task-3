@@ -20,6 +20,10 @@ body{
   width: 600px;
   overflow: hidden;
 }
+.main{
+    text-align: center;
+    color: rgb(187, 66, 6);
+}
 .quiz-header{
   padding: 4rem;
 }
@@ -39,8 +43,15 @@ ul li{
 ul li label{
   cursor: pointer;
 }
+ul li label:hover{
+    background-color: #4a0267fe;
+    box-shadow: 0 0 3px 2px rgba(100, 100, 100, 0.5);
+    border-radius: 5%;
+    padding: 4px;
+    color: #fff;
+}
 button{
-  background-color: #8b07c0;
+  background-color: #640988;
   color: #fff;
   border: none;
   display: block;
